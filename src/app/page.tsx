@@ -26,7 +26,7 @@ function getTitle({ q, type, location, remote }: jobFilterValues) {
   return `${titlePrefix}${titleSuffix}`;
 }
 
-export function generateMetaData({
+export function generateMetadata({
   searchParams: { q, type, location, remote },
 }: PageProps): Metadata {
   return {
